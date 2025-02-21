@@ -27,7 +27,8 @@ class PlannerProvider(Enum):
     GROQ = "groq"
 
 class WriterProvider(Enum):
-    ANTHROPIC = "anthropic"
+    # ANTHROPIC = "anthropic"
+    GROQ = "groq"
 
 @dataclass(kw_only=True)
 class Configuration:
